@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react"
+import React, {useState} from "react"
 import Jumbotron from "react-bootstrap/Jumbotron"
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
@@ -27,13 +27,13 @@ function Home() {
 
             </Jumbotron>
             <Container>
-                <Row>
+                <Row >
                     {optionsArray.map((item) => {
                         return (
                             <Col key={item} lg={6} sm={12}>
-                                <Card style={{ width: "18rem", height: "9rem", backgroundColor: "#2FA1D2", color: "white" }}>
+                                <Card className="glassCard mt-5" style={{ width: "18rem", height: "9rem", backgroundColor: "#2FA1D2", color: "black" }}>
                                     <Card.Body>
-                                        <Button className="btnImportant" onClick={() => setOption(item)}>
+                                        <Button className="btnImportant" onMouseDown={() => setOption(item)}>
                                             
 
                                         </Button>
@@ -49,7 +49,7 @@ function Home() {
             
 
             </Container>
-            <WindowSlide paneChoice={option}  />       
+            <WindowSlide paneChoice={option} onClose={() => setOption('')} />       
 
         </div>
     )

@@ -5,7 +5,7 @@ function Resume(){
 
     return(
         <>
-        <img src={MyResume} alt="resume" style={{width: "60rem"}}></img>
+        <img src={MyResume} alt="resume" style={{width: "100%"}}></img>
         </>
     )
 }

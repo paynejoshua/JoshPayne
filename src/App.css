@@ -37,9 +37,6 @@
   }
 }
 
-.test {
-  
-}
 
 .colorPallete {
   color: #2FA1D2
@@ -50,81 +47,14 @@
   border-color: rgb(65, 186, 238) !important;
   width: 2rem !important;
   height: 2rem !important;
-  border-radius: 50% !important;
-  -webkit-animation: breath 5s ease-out infinite normal;
-    animation: breath 5s ease-out infinite normal;
-  box-shadow: -1px 0px 10px #000;
-}
+  border-radius: 30% !important;
+  box-shadow: 7px 2px 5px whitesmoke;
 
-@-webkit-keyframes breath {
-  0% {
-    -webkit-transform: scale(0.9);
-    transform: scale(0.9);
-  }
-
-  25% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-
-  60% {
-    -webkit-transform: scale(0.9);
-    transform: scale(0.9);
-  }
-
-  100% {
-    -webkit-transform: scale(0.9);
-    transform: scale(0.9);
-  }
-}
-
-@keyframes breath {
-  0% {
-    -webkit-transform: scale(0.9);
-    -ms-transform: scale(0.9);
-    transform: scale(0.9);
-  }
-
-  25% {
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-  }
-
-  60% {
-    -webkit-transform: scale(0.9);
-    -ms-transform: scale(0.9);
-    transform: scale(0.9);
-  }
-
-  100% {
-    -webkit-transform: scale(0.9);
-    -ms-transform: scale(0.9);
-    transform: scale(0.9);
-  }
-}
-
-#flyoutMenu {
-  width: 100vw;
-  height: 100vh;
-  background-color: #FFE600;
-  position: fixed;
-  top: 0;
-  left: 0;
-  transition: transform .3s
-              cubic-bezier(0, .52, 0, 1);
-  overflow: scroll;
-
-  z-index: 1000;
-}
  
-#flyoutMenu.hide {
-  transform: translate3d(-100vw, 0, 0);
 }
- 
-#flyoutMenu.show {
-  transform: translate3d(0, 41vh, 0);
-  overflow: hidden;
+
+.linkedIn {
+  text-emphasis: none !important;
 }
 
 
@@ -138,3 +68,9 @@ border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
 }
 
 
+.glassCard {
+  background: rgba(65, 186, 238, 0.25) !important;
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ) !important;
+backdrop-filter: blur( 3.5px ) !important;
+-webkit-backdrop-filter: blur( 3.5px ) !important;
+}

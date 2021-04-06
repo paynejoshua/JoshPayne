@@ -13,7 +13,6 @@ import { faArrowCircleLeft} from "@fortawesome/free-solid-svg-icons"
 
 
 function WindowSlide(props){
-    console.log(props.paneChoice)
 
     const [projectPane, setProjectPane] = useState(false)
     const [aboutMePane, setAboutMePane] = useState(false)
@@ -66,6 +65,7 @@ function WindowSlide(props){
               // triggered on "<" on left top click or on outside click
               setState({ isPaneOpenRight: false });
               setProjectPane(false)
+              props.onClose()
             }}
           >
             <Projects />
@@ -85,6 +85,7 @@ function WindowSlide(props){
               // triggered on "<" on left top click or on outside click
               setState({ isPaneOpenRight: false });
               setAboutMePane(false)
+              props.onClose()
             }}
           >
             <AboutMe />
@@ -107,7 +108,10 @@ function WindowSlide(props){
             closeIcon={<FontAwesomeIcon icon={faArrowCircleLeft} size="lg"/>}
             onRequestClose={() => {
               setState({ isPaneOpenRight: false });
-              setResumePane(false)}
+              setResumePane(false)
+              props.onClose()
+            
+            }
           }
           >
             <Resume />
@@ -129,9 +133,11 @@ function WindowSlide(props){
             onRequestClose={() => {
               setState({ isPaneOpenRight: false });
               setContactPane(false)
+              props.onClose()
             
             }
             }
+            
           >
             <ContactMe />
           </SlidingPane>
