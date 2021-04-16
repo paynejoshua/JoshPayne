@@ -32,7 +32,7 @@ function Home() {
                         return (
                             <Col key={item} lg={6} sm={12}>
                                 <Card className="glassCard mt-5" style={{ width: "18rem", height: "9rem", backgroundColor: "#2FA1D2", color: "black" }}>
-                                    <Card.Body>
+                                    <Card.Body className="cardClick" onMouseDown={() => setOption(item)}>
                                         <Button className="btnImportant" onMouseDown={() => setOption(item)}>
                                             
 
