@@ -26,6 +26,7 @@ function Projects() {
                                         <Card.Text><a rel="noreferrer" href={item.deployed} target="_blank">Deployed</a></Card.Text>
                                         <Card.Text>{item.tools}</Card.Text>
                                         <Card.Text>{item.role}</Card.Text>
+                                        <Card.Text>{item.note}</Card.Text>
                                     </Card.Body>
 
                                 </Card>
