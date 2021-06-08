@@ -17,6 +17,8 @@ const projectList =
     "tools": "Heroku, GitHub, REACT, JavaScript, CSS, BootStrap, FontAwesome, Calendly, Google Forms",
     "role": "Role: Sole project coordinator and developer",
     "note": "Note: This is an ongoing project and is not yet complete."
+
+    
   },
   {
     "name": "Mythos",
