@@ -2,7 +2,8 @@ import Calendar from "../../assets/images/calendar.jpeg";
 import Password from "../../assets/images/password-generator.jpeg";
 import Mythos from "../../assets/images/mythosImage.png";
 import Employee from "../../assets/images/EmployeeDirectoryImg.png";
-import YSMR from "../../assets/images/YSMR.png"
+import YSMR from "../../assets/images/YSMR.png";
+import SunChaser from "../../assets/images/Sun Chaser.png";
 
 
 const projectList =
@@ -16,9 +17,20 @@ const projectList =
     "alt": "Your Space Made Right Image",
     "tools": "Heroku, GitHub, REACT, JavaScript, CSS, BootStrap, FontAwesome, Calendly, Google Forms",
     "role": "Role: Sole project coordinator and developer",
-    "note": "Note: This is an ongoing project and is not yet complete."
+    "note": "Note: This is an ongoing project and will be updated regularly.",
 
     
+  },
+  {
+    "name": "Sun Chase",
+    "repo": "https://github.com/paynejoshua/findthesun",
+    "deployed": "https://paynejoshua.github.io/findthesun/",
+    "img": SunChaser,
+    "alt": "Sun Chaser Website Image",
+    "tools": "GitHub, Github pages,REACT, JavaScript, CSS, BootStrap, OpenWeatherMap",
+    "role": "Role: Sole project coordinator and developer",
+    "note": "Note: This is an ongoing project and will be updated regularly.",
+    "description": "Have you ever been affected by the lack of sun? Have you ever wondered where the sun just might be shining? With Sun Chaser you are never more than a click away from finding out where the sun is shining closest to you. No more gloomy blues! Chase the sun as you chase the blues away."
   },
   {
     "name": "Mythos",

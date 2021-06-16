@@ -27,6 +27,7 @@ function Projects() {
                                         <Card.Text>{item.tools}</Card.Text>
                                         <Card.Text>{item.role}</Card.Text>
                                         <Card.Text>{item.note}</Card.Text>
+                                        <Card.Text>{item.description}</Card.Text>
                                     </Card.Body>
 
                                 </Card>
