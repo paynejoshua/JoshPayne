@@ -16,8 +16,8 @@ const projectList =
     "img": YSMR,
     "alt": "Your Space Made Right Image",
     "tools": "Heroku, GitHub, REACT, JavaScript, CSS, BootStrap, FontAwesome, Calendly, Google Forms",
-    "role": "Role: Sole project coordinator and developer",
-    "note": "Note: This is an ongoing project and will be updated regularly.",
+    "role": "Sole project coordinator and developer",
+    "note": "This is an ongoing project and will be updated regularly.",
 
     
   },
@@ -28,8 +28,8 @@ const projectList =
     "img": SunChaser,
     "alt": "Sun Chaser Website Image",
     "tools": "GitHub, Github pages,REACT, JavaScript, CSS, BootStrap, OpenWeatherMap",
-    "role": "Role: Sole project coordinator and developer",
-    "note": "Note: This is an ongoing project and will be updated regularly.",
+    "role": "Sole project coordinator and developer",
+    "note": "This is an ongoing project and will be updated regularly.",
     "description": "Have you ever been affected by the lack of sun? Have you ever wondered where the sun just might be shining? With Sun Chaser you are never more than a click away from finding out where the sun is shining closest to you. No more gloomy blues! Chase the sun as you chase the blues away."
   },
   {
@@ -39,7 +39,7 @@ const projectList =
     "img": Mythos,
     "alt": "image for my project 2 website",
     "tools": "Tools Used For this Project: HTML, CSS, React, Merge-Images, MySql, Node, Express, Heroku",
-    "role": "Role: Developed and designed the Home, Portfolio, and World pages. Created the API routes to render information from our database to the portfolio page of the user who has signed in. Created the avatar maker on the portfolio page. Created the avatar characters and weapons and designed both so that a character and a weapon could be rendered on same image."
+    "role": "Developed and designed the Home, Portfolio, and World pages. Created the API routes to render information from our database to the portfolio page of the user who has signed in. Created the avatar maker on the portfolio page. Created the avatar characters and weapons and designed both so that a character and a weapon could be rendered on same image."
   },
   {
     "name": "Work Day Scheduler",
@@ -48,7 +48,7 @@ const projectList =
     "img": Calendar,
     "alt": "calendar image",
     "tools": "Tools Used For this Project: HTML, CSS, jQuery, Moment.",
-    "role": "Role: Sole project coordinator and developer.",
+    "role": "Sole project coordinator and developer.",
   
   },
   {
@@ -58,7 +58,7 @@ const projectList =
     "img": Password,
     "alt": "password generator image",
     "tools": "Tools Used For this Project: HTML, CSS, Javascript",
-    "role": "Role: Sole project coordinator and developer.",
+    "role": "Sole project coordinator and developer.",
   },
   {
     "name": "Employee-Directory",
@@ -67,7 +67,7 @@ const projectList =
     "img": Employee,
     "alt": "Employee Directory Image",
     "tools": "Tools Used For this Project: HTML, CSS, React, Node, Express, RandomUser, Heroku",
-    "role": "Role: Sole project coordinator and developer",
+    "role": "Sole project coordinator and developer",
   },
   
   ]

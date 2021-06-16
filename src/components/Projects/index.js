@@ -24,10 +24,10 @@ function Projects() {
                                         <Card.Title>{item.name}</Card.Title>
                                         <Card.Text><a rel="noreferrer" href={item.repo} target="_blank">Repo</a></Card.Text>
                                         <Card.Text><a rel="noreferrer" href={item.deployed} target="_blank">Deployed</a></Card.Text>
-                                        <Card.Text>{item.tools}</Card.Text>
-                                        <Card.Text>{item.role}</Card.Text>
-                                        <Card.Text>{item.note}</Card.Text>
-                                        <Card.Text>{item.description}</Card.Text>
+                                        <Card.Text>Tools: {item.tools}</Card.Text>
+                                        <Card.Text>Role: {item.role}</Card.Text>
+                                        <Card.Text>Note: {item.note}</Card.Text>
+                                        <Card.Text>Description: {item.description}</Card.Text>
                                     </Card.Body>
 
                                 </Card>
