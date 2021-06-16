@@ -22,7 +22,7 @@ const projectList =
     
   },
   {
-    "name": "Sun Chase",
+    "name": "Sun Chaser",
     "repo": "https://github.com/paynejoshua/findthesun",
     "deployed": "https://paynejoshua.github.io/findthesun/",
     "img": SunChaser,
