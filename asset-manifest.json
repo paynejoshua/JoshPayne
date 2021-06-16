@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/JoshPayne/static/css/main.232b2a4b.chunk.css",
-    "main.js": "/JoshPayne/static/js/main.b353cbb3.chunk.js",
-    "main.js.map": "/JoshPayne/static/js/main.b353cbb3.chunk.js.map",
+    "main.js": "/JoshPayne/static/js/main.6cc279be.chunk.js",
+    "main.js.map": "/JoshPayne/static/js/main.6cc279be.chunk.js.map",
     "runtime-main.js": "/JoshPayne/static/js/runtime-main.821e22d2.js",
     "runtime-main.js.map": "/JoshPayne/static/js/runtime-main.821e22d2.js.map",
     "static/css/2.7df09e53.chunk.css": "/JoshPayne/static/css/2.7df09e53.chunk.css",
@@ -16,6 +16,7 @@
     "static/js/2.85b76879.chunk.js.LICENSE.txt": "/JoshPayne/static/js/2.85b76879.chunk.js.LICENSE.txt",
     "static/media/EmployeeDirectoryImg.5881ce23.png": "/JoshPayne/static/media/EmployeeDirectoryImg.5881ce23.png",
     "static/media/Resume.c59e3659.png": "/JoshPayne/static/media/Resume.c59e3659.png",
+    "static/media/Sun Chaser.7baeed82.png": "/JoshPayne/static/media/Sun Chaser.7baeed82.png",
     "static/media/YSMR.03db3e1c.png": "/JoshPayne/static/media/YSMR.03db3e1c.png",
     "static/media/calendar.6da3b7a4.jpeg": "/JoshPayne/static/media/calendar.6da3b7a4.jpeg",
     "static/media/mythosImage.153e11f2.png": "/JoshPayne/static/media/mythosImage.153e11f2.png",
@@ -28,6 +29,6 @@
     "static/css/2.7df09e53.chunk.css",
     "static/js/2.85b76879.chunk.js",
     "static/css/main.232b2a4b.chunk.css",
-    "static/js/main.b353cbb3.chunk.js"
+    "static/js/main.6cc279be.chunk.js"
   ]
 }
